@@ -1,0 +1,157 @@
+{{ define "main" }}
+
+<!-- Hero -->
+{{ with .Params.hero }}{{ if .enable }}
+<div class="relative overflow-hidden pt-8 lg:pt-16">
+  <div class="mx-auto max-w-7xl lg:px-8">
+    <div class="lg:flex lg:gap-8">
+      <div class="flex w-full shrink-0 flex-col items-center justify-center lg:w-[420px] lg:items-start">
+        <h1 class="px-4 pb-4 text-center text-5xl font-extrabold tracking-tight text-white sm:text-left sm:text-7xl lg:px-0">{{ .title }}</h1>
+        <p class="mt-3 px-8 text-center text-xl font-normal text-[#8186bc] sm:mt-5 sm:text-2xl lg:px-0 lg:text-left lg:text-2xl">{{ .text }}</p>
+        <div class="my-10 text-center sm:mt-16 sm:text-left"><a href="#" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center font-inter text-base font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90 sm:px-16 sm:py-6">Reserve a Meeting</a></div>
+      </div>
+      <div class="flex shrink grow flex-col justify-center">
+        <img class="w-full px-8 lg:w-auto lg:max-w-3xl lg:px-0 xl:max-w-5xl" src="{{ .image }}" alt="{{ .title }}" />
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- Logos -->
+{{ with .Params.logos }} {{ if .enable }}
+<div class="">
+  <div class="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
+    <p class="text-left text-2xl font-semibold text-white">Trusted by</p>
+    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      <div class="col-span-1 flex justify-center py-8 px-8">
+        <img class="max-h-12" src="/img/nike.svg" alt="Nike" />
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8">
+        <img class="max-h-12" src="/img/apple.svg" alt="Apple" />
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8">
+        <img class="max-h-12" src="/img/coca-cola.svg" alt="Coca Cola" />
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- Services -->
+{{ with .Params.services }} {{ if .enable }}
+<div id="services" class="relative px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+  <div class="relative mx-auto max-w-[1200px]">
+    <div class="text-center">
+      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px]">{{ .title }}</h2>
+    </div>
+    <div class="mx-auto mt-12 grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
+      {{ range .service }}
+      <div class="flex flex-col overflow-hidden rounded-3xl bg-[#282854] p-8 py-12 shadow-lg">
+        <div class="flex flex-shrink-0 justify-center lg:justify-start">
+          <img class="mb-4 h-28" src="{{ .image }}" alt="{{ .title }}" />
+        </div>
+        <div class="flex flex-1 flex-col justify-between gap-4">
+          <p class="text-center text-2xl font-bold text-white sm:text-left sm:text-7xl lg:mt-6 xl:text-3xl">{{ .title }}</p>
+          <p class="text-center text-xl font-light text-[#8186bc] sm:mt-5 sm:text-left sm:text-xl lg:text-lg xl:text-2xl">{{ .text }}</p>
+          <a href="{{ .link }}" class="mt-4 text-center text-lg font-light text-white sm:text-left">{{ .link_text }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- Domains -->
+{{ with .Params.domains }} {{ if .enable }}
+<div id="domains" class="relative overflow-hidden pt-8 lg:pt-16">
+  {{ range .domain }}
+  <div class="group my-24 mx-auto max-w-7xl lg:my-0 lg:px-8">
+    <div class="lg:flex lg:gap-8 group-even:lg:justify-end">
+      <div class="flex shrink grow flex-col justify-center group-even:order-first">
+        <img class="max-h-[800px] w-full px-8 lg:w-auto lg:max-w-3xl lg:px-0 xl:max-w-5xl" src="{{ .image }}" alt="{{ .title }}" />
+      </div>
+      <div class="flex w-full shrink-0 flex-col items-center justify-center group-odd:order-first lg:w-[420px] lg:items-start">
+        <h3 class="mb-4 text-center text-3xl font-semibold leading-tight text-white sm:mb-0 sm:text-left sm:text-[42px]">{{ .title }}</h3>
+        <p class="mt-2 mb-4 text-center text-lg font-light text-[#8186bc] sm:mb-0 sm:text-left sm:text-2xl">{{ .text }}</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }} {{ end }}
+
+<!-- Products -->
+{{ with .Params.products }} {{ if .enable }}
+<div id="products" class="relative px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+  <div class="relative mx-auto max-w-[1200px]">
+    <div class="text-center">
+      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px]">{{ .title }}</h2>
+    </div>
+    <div class="mx-auto mt-12 grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
+      {{ range .product }}
+      <div class="flex flex-col overflow-hidden rounded-3xl bg-[#141437] p-8 py-12 shadow-lg">
+        <div class="flex flex-shrink-0 justify-center lg:justify-start">
+          <img class="mb-4 h-28" src="{{ .image }}" alt="{{ .title }}" />
+        </div>
+        <div class="flex flex-1 flex-col justify-between gap-4">
+          <p class="text-center text-2xl font-bold text-white sm:text-left sm:text-3xl lg:mt-6 xl:text-3xl">{{ .title }}</p>
+          <p class="text-center text-xl font-light text-[#8186bc] sm:mt-5 sm:text-left sm:text-xl lg:text-lg xl:text-2xl">{{ .text }}</p>
+          <a href="{{ .link }}" class="mt-4 text-center text-lg font-light text-white sm:text-left">{{ .link_text }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- About -->
+{{ with .Params.about }}{{ if .enable }}
+<div class="relative overflow-hidden pt-8 lg:pt-16">
+  <div class="mx-auto max-w-7xl lg:px-8">
+    <div class="lg:flex lg:justify-end lg:gap-8">
+      <div class="flex w-full shrink-0 flex-col items-center justify-center lg:max-w-lg lg:items-start">
+        <h1 class="px-4 pb-4 text-center text-3xl font-semibold tracking-tight text-white sm:text-left sm:text-[42px] lg:px-0 lg:text-5xl">{{ .title }}</h1>
+        <div class="flex shrink grow flex-col justify-center py-8 lg:hidden">
+          <img class="w-full px-8 lg:w-auto lg:max-w-3xl lg:px-0 xl:max-w-5xl" src="{{ .image }}" alt="{{ .title }}" />
+        </div>
+        <p class="mt-3 px-8 text-center text-xl font-normal text-[#8186bc] sm:mt-5 sm:text-2xl lg:px-0 lg:text-left lg:text-2xl">{{ .text }}</p>
+        <div class="my-10 text-center sm:mt-16 sm:text-left">
+          <a href="{{ .link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center font-inter text-base font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90 sm:px-16 sm:py-6">{{ .link_text }}</a>
+        </div>
+      </div>
+      <div class="order-first hidden shrink grow flex-col justify-center lg:flex">
+        <img class="w-full px-8 lg:w-auto lg:max-w-3xl lg:px-0 xl:max-w-5xl" src="{{ .image }}" alt="{{ .title }}" />
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- Three recent blog posts -->
+{{ with .Params.blog_recent }} {{ if .enable }}
+<div id="products" class="relative px-6 pt-16 pb-12 lg:px-8 lg:pt-24 lg:pb-28">
+  <div class="relative mx-auto max-w-[1200px]">
+    <div class="text-center">
+      <h2 class="text-3xl font-semibold text-white sm:text-[42px] lg:pb-6">{{ .title }}</h2>
+    </div>
+    <div class="mx-auto mt-8 grid max-w-3xl gap-8 lg:mt-12 lg:max-w-none lg:grid-cols-3">
+      {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
+      <div class="flex flex-col overflow-hidden rounded-3xl bg-[#141437] p-8 py-12 shadow-lg">
+        <div class="flex flex-1 flex-col justify-between">
+          <p class="text-base text-white">{{ .Date.Format "02 January, 2006" }}</p>
+          <p class="text-center text-2xl font-bold text-white sm:text-left sm:text-3xl lg:mt-6 xl:text-3xl"><a class="hover:opacity-80" href="{{ .Permalink }}">{{ .Title }}</a></p>
+          <p class="text-center text-xl font-light text-[#8186bc] sm:mt-5 sm:text-left sm:text-xl lg:text-lg xl:text-2xl">{{ .Summary | truncate 200 }}</p>
+          <a href="{{ .Permalink }}" class="mt-4 text-center text-lg font-light text-white hover:opacity-80 sm:text-left">Read More</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+
+<!-- End -->
+{{ end }}

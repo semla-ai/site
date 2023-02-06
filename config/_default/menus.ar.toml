@@ -1,0 +1,66 @@
+[[main]]
+name = "Home"
+url = "/"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Services"
+weight = 2
+
+[[main]]
+parent = "Services"
+name = "Machine Learning Services"
+url = "/machine-learning-services/"
+pageRef = "/machine-learning-services"
+weight = 1
+
+[[main]]
+parent = "Services"
+name = "AI Services"
+url = "/ai-services/"
+pageRef = "/ai-services"
+weight = 2
+[[main]]
+parent = "Services"
+name = "Data Engineering Services"
+url = "/data-engineering-services/"
+pageRef = "/data-engineering-services"
+weight = 3
+[[main]]
+parent = "Services"
+name = " MLOps Services"
+url = "/mlops-services/"
+pageRef = "/mlops-services"
+weight = 4
+
+[[main]]
+name = "Case Studies"
+url = "/case-studies/"
+pageRef = "/case-studies"
+weight = 3
+
+[[main]]
+name = "About Us"
+url = "/about/"
+pageRef = "/about"
+weight = 4
+
+[[main]]
+name = "Contact Us"
+url = "/contact/"
+pageRef = "/contact"
+weight = 5
+
+[[main]]
+name = "Blog"
+url = "/blog/"
+pageRef = "/blog"
+weight = 6
+
+[[main]]
+name = "Resources"
+url = "/resources/"
+pageRef = "/resources"
+weight = 7
+

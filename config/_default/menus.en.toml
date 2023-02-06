@@ -1,0 +1,33 @@
+[[main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[main]]
+name = "Services"
+url = "/#services"
+weight = 20
+
+[[main]]
+name = "Domains"
+url = "/#domains"
+weight = 30
+
+[[main]]
+name = "Products"
+url = "/#products"
+weight = 40
+
+[[main]]
+name = "Blog"
+url = "/blog/"
+weight = 50
+
+[[main]]
+name = "About Us"
+url = "/#about"
+weight = 60
+
+
+
+
