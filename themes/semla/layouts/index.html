@@ -18,24 +18,17 @@
 </div>
 {{ end }} {{ end }}
 
-<!-- Logos -->
-{{ with .Params.logos }} {{ if .enable }}
-<div class="">
-  <div class="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
-    <p class="text-left text-2xl font-semibold text-white">Trusted by</p>
-    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-      <div class="col-span-1 flex justify-center py-8 px-8">
-        <img class="max-h-12" src="/img/nike.svg" alt="Nike" />
-      </div>
-      <div class="col-span-1 flex justify-center py-8 px-8">
-        <img class="max-h-12" src="/img/apple.svg" alt="Apple" />
-      </div>
-      <div class="col-span-1 flex justify-center py-8 px-8">
-        <img class="max-h-12" src="/img/coca-cola.svg" alt="Coca Cola" />
-      </div>
-    </div>
+<!-- Trusted by -->
+{{ with .Params.trusted_by }} {{ if .enable }}
+<div class="mx-auto max-w-7xl py-8 px-6 lg:px-8 lg:pt-0 lg:pb-8">
+  <p class="mb-6 text-center text-xl font-semibold text-white lg:text-left lg:text-2xl">{{ .title }}</p>
+  <div class="flex flex-wrap items-center justify-center gap-12 lg:justify-start">
+    {{ range .logos }}
+    <img class="h-8 lg:h-12" src="{{ . }}" alt="Logo" />
+    {{ end }}
   </div>
 </div>
+
 {{ end }} {{ end }}
 
 <!-- Services -->

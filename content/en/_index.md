@@ -11,6 +11,15 @@ hero:
   button_link: "/link/"
   image: "/img/hero.png"
 
+# trusted by
+trusted_by:
+  enable: true
+  title: "Trusted by"
+  logos:
+    - "/img/mof.png"
+    - "/img/lendo.png"
+    - "/img/manafa.png"
+
 # services
 services:
   enable: true
