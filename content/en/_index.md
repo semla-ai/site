@@ -13,7 +13,7 @@ hero:
 
 # trusted by
 trusted_by:
-  enable: true
+  enable: false
   title: "Trusted by"
   logos:
     - "/img/mof.png"
@@ -29,18 +29,18 @@ services:
     - title: "Machine Learning Consulting"
       text: "We provide expert advice and guidance to organizations looking to leverage the power of artificial intelligence and machine learning to solve business problems and drive growth"
       image: "/img/service1.png"
-      link_text: "Learn More"
-      link: "#"
+      # link_text: "Learn More"
+      # link: "#"
     - title: "Machine Learning Development"
       text: "We design, build, and deploy custom machine learning models and solutions to automate tasks and make data-driven decisions"
       image: "/img/service2.png"
-      link_text: "Learn More"
-      link: "#"
+      # link_text: "Learn More"
+      # link: "#"
     - title: "Data Analytics and Insights"
       text: "We help you in the process to collect, process, and analyze data in order to gain valuable insights and make informed decisions."
       image: "/img/service3.png"
-      link_text: "Learn More"
-      link: "#"
+      # link_text: "Learn More"
+      # link: "#"
 
 # domains
 domains:
@@ -49,10 +49,10 @@ domains:
   title:
   domain:
     - title: "Time Series"
-      text: "Applying machine learning techniques to Data collected over time or based on events, such as stock prices, temperature readings, purchases made by customers or website clicks, and even data arranged in a table format, makes it possible to make predictions, identify patterns and trends, and gain valuable insights into various real-world problems and systems."
+      text: "We Apply machine learning techniques to Data collected over time or based on events, such as stock prices, temperature readings, purchases made by customers or website clicks, and even data arranged in a table format, makes it possible to make predictions, identify patterns and trends, and gain valuable insights into various real-world problems and systems."
       image: "/img/graphics2.png"
-      link_text: "Learn More"
-      link: "#"
+      # link_text: "Learn More"
+      # link: "#"
     - title: "Computer Vision"
       text: "We Analyze, interpret, and model visual data like images and videos to perform tasks such as object recognition, image classification, object detection, semantic segmentation, and others. With the advancements in deep learning and convolutional neural networks, the accuracy and performance of machine learning for computer vision have significantly improved, making it a valuable tool for various industries."
       image: "/img/graphics3.png"
