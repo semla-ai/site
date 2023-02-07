@@ -10,21 +10,21 @@ email = "info@semla.ai"
 ########################### social icons ############################
 
 [[social]]
+name = "Facebook"
+icon = "fa-brands fa-facebook-f fa-xl"
+link = "https://www.facebook.com/"
+
+[[social]]
 name = "Twitter"
 icon = "fa-brands fa-twitter fa-xl"
 link = "https://twitter.com/semla_ai"
 
 [[social]]
-name = "GitHub"
-icon = "fa-brands fa-github fa-xl"
-link = "https://github.com/semla-ai"
-
-[[social]]
 name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-xl"
+icon = "fa-brands fa-linkedin-in fa-xl"
 link = "https://www.linkedin.com/company/semla-ai"
 
-# [[social]]
-# name = "YouTube"
-# icon = "fa-brands fa-youtube fa-xl"
-# link = "https://www.youtube.com/"
+[[social]]
+name = "YouTube"
+icon = "fa-brands fa-youtube fa-xl"
+link = "https://www.youtube.com/"
