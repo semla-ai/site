@@ -6,7 +6,7 @@ description: SEMLA - Software Engineering for Machine Learning Applications
 hero:
   enable: true
   title: Elevate with Data
-  text: "we strive to elevate your business through the power of data. Join us on a journey to transform your organization and stay ahead of the curve."
+  text: "We strive to elevate your business through the power of data. Join us on a journey to transform your organization and stay ahead of the curve."
   button: "Reserve a Meeting"
   button_link: "/link/"
   image: "/img/hero.png"
@@ -23,6 +23,7 @@ trusted_by:
 # services
 services:
   enable: true
+  heading: "Services"
   title: "Custom Solutions fit your needs"
   service:
     - title: "Machine Learning Consulting"
@@ -44,7 +45,8 @@ services:
 # domains
 domains:
   enable: true
-  title: "title"
+  heading: "Domains"
+  title:
   domain:
     - title: "Time Series"
       text: "Applying machine learning techniques to Data collected over time or based on events, such as stock prices, temperature readings, purchases made by customers or website clicks, and even data arranged in a table format, makes it possible to make predictions, identify patterns and trends, and gain valuable insights into various real-world problems and systems."
@@ -65,6 +67,7 @@ domains:
 # products
 products:
   enable: true
+  heading: "Products"
   title: "Scale & advance your business with our AI solutions"
   product:
     - title: "OCR for Arabic Documents"
@@ -86,6 +89,7 @@ products:
 # about
 about:
   enable: true
+  heading: "About us"
   title: "Our Mission"
   text: "To help businesses elevate their operations and decision-making with the use of data analytics and machine learning techniques."
   image: "/img/graphics5.png"
