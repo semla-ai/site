@@ -98,6 +98,6 @@ about:
 
 # blog
 blog_recent:
-  enable: true
+  enable: false
   title: "Recent Blog"
 ---
