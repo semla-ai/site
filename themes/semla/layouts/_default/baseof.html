@@ -3,6 +3,35 @@
   {{- partial "head.html" . -}}
   <body class="bg-[#1e1e46]">
     {{- partial "header.html" . -}} {{- block "main" . }}{{- end }} {{- partial "footer.html" . -}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+    <script src="/js/flowbite.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+          },
+          1200: {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+          },
+        },
+        spaceBetween: 30,
+        // loop: true,
+        rewind: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          // dynamicBullets: true,
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
