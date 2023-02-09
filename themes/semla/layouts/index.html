@@ -35,19 +35,19 @@
 
 <!-- Services -->
 {{ with .Params.services }} {{ if .enable }}
-<div id="services" class="relative px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+<div id="services" class="relative px-6 py-12 lg:px-8 lg:py-24">
   <div class="relative mx-auto max-w-[1200px]">
     <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
     <div class="text-center">
-      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px]">{{ .title }}</h2>
+      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px] lg:pb-16">{{ .title }}</h2>
     </div>
-    <div class="mx-auto mt-12 grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
+    <div class="mx-auto grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
       {{ range .service }}
       <div class="flex flex-col overflow-hidden rounded-3xl bg-[#282854] p-8 py-12 shadow-lg">
         <div class="flex flex-shrink-0 justify-center lg:justify-start">
           <img class="mb-4 h-28" src="{{ .image }}" alt="{{ .title }}" />
         </div>
-        <div class="flex flex-1 flex-col justify-between gap-4">
+        <div class="flex flex-1 flex-col justify-start gap-4">
           <p class="text-center text-2xl font-bold text-white sm:text-left sm:text-7xl lg:mt-6 xl:text-3xl">{{ .title }}</p>
           <p class="text-center text-xl font-light text-[#8186bc] sm:mt-5 sm:text-left sm:text-xl lg:text-lg xl:text-2xl">{{ .text }}</p>
           {{ with .learn_more }} {{ if .enable }}
@@ -63,11 +63,11 @@
 
 <!-- Domains -->
 {{ with .Params.domains }} {{ if .enable }}
-<div id="domains" class="relative overflow-hidden pt-8 lg:pt-16">
+<div id="domains" class="relative px-6 py-12 lg:px-8 lg:py-24">
   <div class="relative mx-auto max-w-[1200px]">
-    <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
+    <h2 class="text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
     {{ range .domain }}
-    <div class="group my-24 mx-auto max-w-7xl lg:my-0 lg:px-8">
+    <div class="group my-12 mx-auto max-w-7xl lg:my-0 lg:px-8">
       <div class="lg:flex lg:gap-8 group-even:lg:justify-end">
         <div class="flex shrink grow flex-col justify-center group-even:order-first">
           <img class="max-h-[800px] w-full px-8 lg:w-auto lg:max-w-3xl lg:px-0 xl:max-w-5xl" src="{{ .image }}" alt="{{ .title }}" />
@@ -88,19 +88,19 @@
 
 <!-- Products -->
 {{ with .Params.products }} {{ if .enable }}
-<div id="products" class="relative px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+<div id="products" class="relative px-6 py-12 lg:px-8 lg:py-24">
   <div class="relative mx-auto max-w-[1200px]">
     <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
     <div class="text-center">
-      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px]">{{ .title }}</h2>
+      <h2 class="pb-6 text-3xl font-semibold text-white sm:text-[42px] lg:pb-16">{{ .title }}</h2>
     </div>
-    <div class="mx-auto mt-12 grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
+    <div class="mx-auto grid max-w-3xl gap-8 lg:max-w-none lg:grid-cols-3">
       {{ range .product }}
       <div class="flex flex-col overflow-hidden rounded-3xl bg-[#141437] p-8 py-12 shadow-lg">
         <div class="flex flex-shrink-0 justify-center lg:justify-start">
           <img class="mb-4 h-28" src="{{ .image }}" alt="{{ .title }}" />
         </div>
-        <div class="flex flex-1 flex-col justify-between gap-4">
+        <div class="flex flex-1 flex-col justify-start gap-4">
           <p class="text-center text-2xl font-bold text-white sm:text-left sm:text-3xl lg:mt-6 xl:text-3xl">{{ .title }}</p>
           <p class="text-center text-xl font-light text-[#8186bc] sm:mt-5 sm:text-left sm:text-xl lg:text-lg xl:text-2xl">{{ .text }}</p>
           {{ with .learn_more }} {{ if .enable }}
@@ -116,7 +116,7 @@
 
 <!-- About -->
 {{ with .Params.about }}{{ if .enable }}
-<div id="about" class="relative overflow-hidden pt-8 lg:pt-16 lg:pb-16">
+<div id="about" class="relative px-6 py-12 lg:px-8 lg:py-24">
   <div class="mx-auto max-w-7xl lg:px-8">
     <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
     <div class="lg:flex lg:justify-end lg:gap-8">
@@ -142,7 +142,7 @@
 
 <!-- Three recent blog posts -->
 {{ with .Params.blog_recent }} {{ if .enable }}
-<div id="products" class="relative px-6 pt-16 pb-12 lg:px-8 lg:pt-24 lg:pb-28">
+<div id="products" class="relative px-6 py-12 lg:px-8 lg:py-24">
   <div class="relative mx-auto max-w-[1200px]">
     <div class="text-center">
       <h2 class="text-3xl font-semibold text-white sm:text-[42px] lg:pb-6">{{ .title }}</h2>
