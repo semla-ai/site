@@ -6,7 +6,7 @@ description: SEMLA - Software Engineering for Machine Learning Applications
 hero:
   enable: true
   title: Elevate with Data
-  text: "We strive to elevate your business through the power of data. Join us on a journey to transform your organization and stay ahead of the curve."
+  text: "We strive to elevate your business through the power of data and machine learning. Join us on a journey to transform your organization and stay ahead of the curve."
   image: "/img/hero.png"
   button:
     enable: true
@@ -50,7 +50,7 @@ services:
         link_text: "Learn More"
         link: "#"
     - title: "Machine Learning Consulting"
-      text: "We provide expert advice and guidance to organizations looking to leverage the power of artificial intelligence and machine learning to solve business problems and drive growth"
+      text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems and drive growth"
       image: "/img/service1.png"
       learn_more:
         enable: false
