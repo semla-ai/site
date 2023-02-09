@@ -29,7 +29,7 @@ services:
   title: "Custom Solutions fit your needs"
   service:
     - title: "Machine Learning Consulting"
-      text: "We provide expert advice and guidance to organizations looking to leverage the power of artificial intelligence and machine learning to solve business problems and drive growth"
+      text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems"
       image: "/img/service1.png"
       learn_more:
         enable: false
@@ -50,7 +50,7 @@ services:
         link_text: "Learn More"
         link: "#"
     - title: "Machine Learning Consulting"
-      text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems and drive growth"
+      text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems"
       image: "/img/service1.png"
       learn_more:
         enable: false
