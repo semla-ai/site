@@ -99,3 +99,19 @@ html {
 body {
   font-family: Urbanist, Inter, sans-serif;
 }
+
+/* Swiper */
+
+/* Prevent Safari flickering on loop */
+/* .swiper-slide {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #6d6e96;
+}
+
+:root {   --swiper-navigation-size: 30px; }
+
+/* Swiper end */

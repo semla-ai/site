@@ -49,6 +49,27 @@ services:
         enable: false
         link_text: "Learn More"
         link: "#"
+    - title: "Machine Learning Consulting"
+      text: "We provide expert advice and guidance to organizations looking to leverage the power of artificial intelligence and machine learning to solve business problems and drive growth"
+      image: "/img/service1.png"
+      learn_more:
+        enable: false
+        link_text: "Learn More"
+        link: "#"
+    - title: "Machine Learning Development"
+      text: "We design, build, and deploy custom machine learning models and solutions to automate tasks and make data-driven decisions"
+      image: "/img/service2.png"
+      learn_more:
+        enable: false
+        link_text: "Learn More"
+        link: "#"
+    - title: "Data Analytics and Insights"
+      text: "We help you in the process to collect, process, and analyze data in order to gain valuable insights and make informed decisions."
+      image: "/img/service3.png"
+      learn_more:
+        enable: false
+        link_text: "Learn More"
+        link: "#"
 
 # domains
 domains:

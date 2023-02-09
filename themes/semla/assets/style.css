@@ -1275,6 +1275,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1285,10 +1289,6 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .-mb-16 {
@@ -1503,12 +1503,12 @@ video {
   gap: 3rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-5 {
@@ -1855,6 +1855,11 @@ video {
   color: rgb(40 40 84 / var(--tw-text-opacity));
 }
 
+.text-\[\#6d6e96\] {
+  --tw-text-opacity: 1;
+  color: rgb(109 110 150 / var(--tw-text-opacity));
+}
+
 .text-\[\#6494cc\] {
   --tw-text-opacity: 1;
   color: rgb(100 148 204 / var(--tw-text-opacity));
@@ -1930,6 +1935,25 @@ html {
 body {
   font-family: Urbanist, Inter, sans-serif;
 }
+
+/* Swiper */
+
+/* Prevent Safari flickering on loop */
+
+/* .swiper-slide {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #6d6e96;
+}
+
+:root {
+  --swiper-navigation-size: 30px;
+}
+
+/* Swiper end */
 
 .hover\:bg-indigo-700:hover {
   --tw-bg-opacity: 1;
@@ -2210,6 +2234,18 @@ body {
 
   .lg\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .lg\:-mr-12 {
+    margin-right: -3rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:-ml-12 {
+    margin-left: -3rem;
   }
 
   .lg\:mt-12 {
