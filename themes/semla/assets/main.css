@@ -116,6 +116,7 @@ body {
 
 .swiper-slide {
   height: auto;
+  margin-bottom: 50px;
 }
 
 /* Swiper end */
