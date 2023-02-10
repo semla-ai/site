@@ -10,7 +10,7 @@ hero:
   image: "/img/hero.png"
   button:
     enable: true
-    button: "Reserve a Meeting"
+    button: "احجز موعد"
     button_link: "link"
 
 # trusted by

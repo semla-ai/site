@@ -7,7 +7,7 @@
       <div>
         <nav class="flex flex-wrap items-center justify-center gap-4 md:gap-8" aria-label="Footer">
           {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}" class="text-sm leading-6 text-white hover:opacity-80 md:text-base">{{ .Name }}</a>
+          <a href="{{ .URL | relLangURL}}" class="text-sm leading-6 text-white hover:opacity-80 md:text-base">{{ .Name }}</a>
           {{ end }}
         </nav>
       </div>
@@ -22,7 +22,7 @@
         </a>
         {{ end }}
       </div>
-      <p class="mt-6 mb-8 text-center text-sm leading-5 text-white md:mb-0 md:text-base">&copy; Semla AI {{ dateFormat "2006" now }}. All rights reserved.</p>
+      <p class="mt-6 mb-8 text-center text-sm leading-5 text-white md:mb-0 md:text-base">&copy; Semla AI {{ dateFormat "2006" now }}. {{ T "allRightsReserved" }}</p>
     </div>
   </div>
 </footer>
