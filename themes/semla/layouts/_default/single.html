@@ -1,1 +1,9 @@
-{{ define "main" }} {{ end }}
+{{ define "main" }}
+<div class="relative overflow-hidden pt-8 lg:pt-16">
+  <div class="mx-auto max-w-7xl lg:px-8">
+    <div class="my-16 flex flex-col items-start justify-center">
+      <div class="prose prose-invert lg:prose-xl">{{ .Content }}</div>
+    </div>
+  </div>
+</div>
+{{ end }}

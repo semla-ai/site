@@ -1471,6 +1471,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -2126,6 +2130,12 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+}
+
 .\[\&\>p\]\:mt-3>p {
   margin-top: 0.75rem;
 }
@@ -2583,10 +2593,6 @@ body {
 
   .lg\:bg-inherit {
     background-color: inherit;
-  }
-
-  .lg\:bg-transparent {
-    background-color: transparent;
   }
 
   .lg\:prose-xl :where(.lg\:prose-xl > :first-child):not(:where([class~="not-prose"] *)) {
