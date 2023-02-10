@@ -3,6 +3,16 @@
   {{- partial "head.html" . -}}
   <body class="bg-[#1e1e46]">
     {{- partial "header.html" . -}} {{- block "main" . }}{{- end }} {{- partial "footer.html" . -}}
+    <script>
+      const links = document.querySelectorAll('#mobile-menu a');
+      const hamburgerButton = document.querySelector('.hamburger-button');
+
+      for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function() {
+          hamburgerButton.click();
+        });
+      }
+    </script>
     <script src="/js/flowbite.min.js"></script>
     <script src="/js/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
