@@ -1,0 +1,15 @@
+[en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/en"
+title = "Semla AI"
+weight = 1
+
+
+[ar]
+languageName = "العربية"
+languageCode = "ar"
+contentDir = "content/ar"
+languagedirection = "rtl"
+title = "Semla AI"
+weight = 2

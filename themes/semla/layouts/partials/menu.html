@@ -22,7 +22,7 @@
               <ul class="py-0 text-sm text-white" aria-labelledby="dropdownLargeButton">
                 {{ range .Children }}
                 <li>
-                  <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}text-white{{ else }}text-white{{ end }} block py-2 px-4 hover:bg-gray-100">{{ .Name }}</a>
+                  <a href="{{ .URL | relLangURL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}text-white{{ else }}text-white{{ end }} block py-2 px-4 hover:bg-gray-100">{{ .Name }}</a>
                 </li>
                 {{ end }}
               </ul> 
@@ -31,13 +31,30 @@
       {{ else }}
       <li>
         <a 
-        href="{{ .URL }}" 
+        href="{{ .URL | relLangURL}}" 
         class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-white hover:opacity-80 lg:text-white{{ else }}text-white hover:opacity-80{{ end }} block text-base py-4 pr-4 pl-3 rounded lg:bg-transparent lg:p-0" aria-current="page">{{ .Name }}
         </a>
       </li>
       {{ end }}
     {{ end }}
-    <li class="my-8 lg:my-0"><a href="{{ .Site.Params.get_dragonfly_link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center text-base font-inter font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90" rel="noopener noreferrer" target="_blank">Reserve a Meeting</a></li>
+
+    {{ if .IsTranslated }}
+    {{ range .Translations }}
+      {{ if eq .Site.Language.Lang "en" }}
+    <li><a class="text-white hover:opacity-80 block text-base py-4 pr-4 pl-3 rounded lg:bg-transparent lg:p-0" title="English" href="{{ .RelPermalink }}"> English</a></li>
+      {{ else }}
+    <li><a class="text-white hover:opacity-80 block text-base py-4 pr-4 pl-3 rounded lg:bg-transparent lg:p-0" title="Arabic" href="{{ .RelPermalink }}"> العربية</a></li>
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ if eq .Site.Language.Lang "ar" }}
+    <li><a class="text-white hover:opacity-80 block text-base py-4 pr-4 pl-3 rounded lg:bg-transparent lg:p-0" title="English" href="{{ .RelPermalink }}"> English</a></li>
+    {{ else }}
+    <li><a class="text-white hover:opacity-80 block text-base py-4 pr-4 pl-3 rounded lg:bg-transparent lg:p-0" title="Arabic" href="{{ .RelPermalink }}"> العربية</a></li>
+    {{ end }}
+  {{ end }}
+
+    <li class="my-8 lg:my-0"><a href="{{ .Site.Params.get_dragonfly_link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center text-base font-inter font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90" rel="noopener noreferrer" target="_blank">{{ T "reserveMeeting" }}</a></li>
       </ul>
       </div>
     </div>

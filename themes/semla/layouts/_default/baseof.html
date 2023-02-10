@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
   {{- partial "head.html" . -}}
   <body class="bg-[#1e1e46]">
     {{- partial "header.html" . -}} {{- block "main" . }}{{- end }} {{- partial "footer.html" . -}}
