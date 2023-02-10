@@ -14,12 +14,12 @@ url = "/#domains"
 weight = 30
 
 [[main]]
-name = "منتجات"
+name = "المنتجات"
 url = "/#products"
 weight = 40
 
 [[main]]
-name = "مدونة"
+name = "المدونة"
 url = "/blog/"
 weight = 50
 

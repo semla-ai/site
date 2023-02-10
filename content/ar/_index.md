@@ -26,24 +26,24 @@ trusted_by:
 services:
   enable: true
   heading: "الخدمات"
-  title: "Custom Solutions fit your needs"
+  title: "حلول مخصصة تناسب احتياجاتك"
   service:
-    - title: "Machine Learning Consulting"
-      text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems"
+    - title: "استشارات التعلم الآلي"
+      text: "نحن نقدم نصائح وإرشادات الخبراء للمؤسسات للاستفادة من قوة البيانات والتعلم الآلي لحل مشاكل العمل"
       image: "/img/service1.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "Machine Learning Development"
-      text: "We design, build, and deploy custom machine learning models and solutions to automate tasks and make data-driven decisions"
+    - title: "تطوير تعلم الآلة"
+      text: "نحن نصمم ونبني وننشر نماذج وحلول التعلم الآلي المخصصة لأتمتة المهام واتخاذ قرارات تعتمد على البيانات."
       image: "/img/service2.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "Data Analytics and Insights"
-      text: "We help you in the process to collect, process, and analyze data in order to gain valuable insights and make informed decisions."
+    - title: "تحليلات البيانات والرؤى"
+      text: "نحن نساعدك في عملية جمع البيانات ومعالجتها وتحليلها من أجل اكتساب رؤى قيمة واتخاذ قرارات مستنيرة."
       image: "/img/service3.png"
       learn_more:
         enable: false
@@ -53,25 +53,25 @@ services:
 # domains
 domains:
   enable: true
-  heading: "Domains"
+  heading: "المجالات"
   title:
   domain:
-    - title: "Time Series"
-      text: "We Apply machine learning techniques to Data collected over time or based on events, such as stock prices, temperature readings, purchases made by customers or website clicks, and even data arranged in a table format, makes it possible to make predictions, identify patterns and trends, and gain valuable insights into various real-world problems and systems."
+    - title: "السلاسل الزمنية"
+      text: "نطبق تقنيات التعلم الآلي على البيانات التي يتم جمعها بمرور الوقت أو بناءً على الأحداث ، مثل أسعار الأسهم وقراءات درجة الحرارة والمشتريات التي قام بها العملاء أو نقرات موقع الويب وحتى البيانات المرتبة في تنسيق جدول ، مما يجعل من الممكن عمل تنبؤات وتحديد الأنماط و الاتجاهات ، واكتساب رؤى قيمة في مختلف مشاكل وأنظمة العالم الحقيقي."
       image: "/img/graphics2.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "Computer Vision"
-      text: "We Analyze, interpret, and model visual data like images and videos to perform tasks such as object recognition, image classification, object detection, semantic segmentation, and others. With the advancements in deep learning and convolutional neural networks, the accuracy and performance of machine learning for computer vision have significantly improved, making it a valuable tool for various industries."
+    - title: "الرؤية الحاسوبية"
+      text: "نقوم بتحليل وتفسير ونمذجة البيانات المرئية مثل الصور ومقاطع الفيديو لأداء مهام مثل التعرف على الأشياء وتصنيف الصور واكتشاف الكائنات والتجزئة الدلالية وغيرها. مع التقدم في التعلم العميق والشبكات العصبية التلافيفية ، تحسنت دقة وأداء التعلم الآلي لرؤية الكمبيوتر بشكل كبير ، مما يجعلها أداة قيمة لمختلف الصناعات."
       image: "/img/graphics3.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "Natural Langauge Processing"
-      text: "Our team is experienced in developing deep learning models for a wide range of NLP applications, including speech recognition, text classification, sentiment analysis, named entity recognition, text generation, dialogue systems, and question-answering systems. With our domain expertise, companies can improve customer engagement, automate customer support, personalize marketing campaigns, and perform advanced language-based analysis."
+    - title: "معالجة اللغة الطبيعية"
+      text: "يتمتع فريقنا بخبرة في تطوير نماذج التعلم العميق لمجموعة واسعة من تطبيقات البرمجة اللغوية العصبية ، بما في ذلك التعرف على الكلام ، وتصنيف النص ، وتحليل المشاعر ، والتعرف على الكيانات المسماة ، وإنشاء النص ، وأنظمة الحوار ، وأنظمة الإجابة على الأسئلة. بفضل خبرتنا في المجال ، يمكن للشركات تحسين مشاركة العملاء وأتمتة دعم العملاء وتخصيص الحملات التسويقية وإجراء تحليل متقدم قائم على اللغة."
       image: "/img/graphics4.png"
       learn_more:
         enable: false
@@ -82,24 +82,24 @@ domains:
 products:
   enable: true
   heading: "المنتجات"
-  title: "Scale & advance your business with our AI solutions"
+  title: "وسع نطاق عملك وطوره من خلال حلول الذكاء الاصطناعي لدينا"
   product:
-    - title: "Digitize Arabic Documents"
-      text: "Using Optical Character Recognition (OCR) technology to extract the text from images and convert it into editable text format. This can help organizations to better manage their information, reduce paper waste, and improve overall efficiency"
+    - title: "رقمنة المستندات العربية"
+      text: "استخدام تقنية التعرف الضوئي على الحروف لاستخراج النص من الصور وتحويله إلى تنسيق نصي قابل للتحرير. يمكن أن يساعد هذا المنظمات على إدارة معلوماتها بشكل أفضل، وتقليل النفايات الورقية ،وتحسين الكفاءة العامة"
       image: "/img/service1.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "AI Content Moderation"
-      text: "Automatically review and filter  text, images, or videos to ensure it aligns with defined standards and policies, promoting a safe and positive user experience."
+    - title: "الإشراف على المحتوى باستخدام الذكاء الاصطناعي"
+      text: "مراجعة النصوص أو الصور أو مقاطع الفيديو وتصفيتها تلقائيًا للتأكد من توافقها مع المعايير والسياسات المحددة ، وتعزيز تجربة مستخدم آمنة وإيجابية."
       image: "/img/service2.png"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "Predictive Maintenance"
-      text: "Predict when equipment or machines are likely to fail, and to schedule maintenance tasks before those failures occur. The goal of predictive maintenance is to reduce downtime, minimize equipment damage, and lower maintenance costs."
+    - title: "الصيانة التنبؤية"
+      text: "توقع متى من المحتمل أن تتعطل المعدات أو الآلات وقم بجدولة مهام الصيانة قبل حدوث تلك الأعطال. الهدف من الصيانة التنبؤية هو تقليل وقت التوقف عن العمل وتقليل تلف المعدات وتكاليف الصيانة."
       image: "/img/service3.png"
       learn_more:
         enable: false
@@ -110,12 +110,12 @@ products:
 about:
   enable: true
   heading: "من نحن"
-  title: "Our Mission"
-  text: "To help businesses elevate their operations and decision-making with the use of data analytics and machine learning techniques."
+  title: "رسالتنا"
+  text: "لمساعدة الشركات على الارتقاء بعملياتها وصنع القرار باستخدام تحليل البيانات وتقنيات التعلم الآلي."
   image: "/img/graphics5.png"
   button:
     enable: true
-    link_text: "Learn More about us"
+    link_text: "تعرف على المزيد عنا"
     link: "about"
 # blog
 blog_recent:
