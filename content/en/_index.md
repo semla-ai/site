@@ -114,7 +114,7 @@ about:
   text: "To help businesses elevate their operations and decision-making with the use of data analytics and machine learning techniques."
   image: "/img/graphics5.png"
   button:
-    enable: true
+    enable: false
     link_text: "Learn More about us"
     link: "about"
 # blog

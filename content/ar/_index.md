@@ -5,8 +5,8 @@ description: SEMLA - Software Engineering for Machine Learning Applications
 # hero
 hero:
   enable: true
-  title: Elevate with Data
-  text: "We strive to elevate your business through the power of data and machine learning. Join us on a journey to transform your organization and stay ahead of the curve."
+  title: حلِّق بالبيانات
+  text: "نحن نسعى جاهدين للارتقاء بعملك من خلال قوة البيانات والتعلم الآلي. انضم إلينا في رحلة لتحويل منظمتك والبقاء في الطليعة."
   image: "/img/hero.png"
   button:
     enable: true
@@ -25,7 +25,7 @@ trusted_by:
 # services
 services:
   enable: true
-  heading: "Services"
+  heading: "الخدمات"
   title: "Custom Solutions fit your needs"
   service:
     - title: "Machine Learning Consulting"
@@ -81,7 +81,7 @@ domains:
 # products
 products:
   enable: true
-  heading: "Products"
+  heading: "المنتجات"
   title: "Scale & advance your business with our AI solutions"
   product:
     - title: "Digitize Arabic Documents"
@@ -109,7 +109,7 @@ products:
 # about
 about:
   enable: true
-  heading: "About us"
+  heading: "من نحن"
   title: "Our Mission"
   text: "To help businesses elevate their operations and decision-making with the use of data analytics and machine learning techniques."
   image: "/img/graphics5.png"
