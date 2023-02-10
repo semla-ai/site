@@ -116,7 +116,7 @@ about:
   button:
     enable: true
     link_text: "Learn More about us"
-    link: "#"
+    link: "about"
 # blog
 blog_recent:
   enable: false
