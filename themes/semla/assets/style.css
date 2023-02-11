@@ -1735,14 +1735,6 @@ video {
   padding-bottom: 3rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -2134,12 +2126,6 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:bg-transparent {
-    background-color: transparent;
-  }
-}
-
 .\[\&\>p\]\:mt-3>p {
   margin-top: 0.75rem;
 }
@@ -2386,12 +2372,6 @@ body {
     gap: 2rem;
   }
 
-  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .lg\:overflow-hidden {
     overflow: hidden;
   }
@@ -2618,6 +2598,10 @@ body {
     background-color: inherit;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:prose-xl :where(.lg\:prose-xl > :first-child):not(:where([class~="not-prose"] *)) {
     margin-top: 0;
   }
@@ -2742,6 +2726,11 @@ body {
 
   [dir="rtl"] .rtl\:lg\:text-right {
     text-align: right;
+  }
+
+  .lg\:\[\&\>li\]\:mx-4>li {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
