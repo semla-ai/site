@@ -1735,14 +1735,6 @@ video {
   padding-bottom: 3rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -2380,12 +2372,6 @@ body {
     gap: 2rem;
   }
 
-  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .lg\:overflow-hidden {
     overflow: hidden;
   }
@@ -2732,6 +2718,19 @@ body {
 
   .group:nth-child(even) .group-even\:lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  [dir="ltr"] .ltr\:lg\:text-left {
+    text-align: left;
+  }
+
+  [dir="rtl"] .rtl\:lg\:text-right {
+    text-align: right;
+  }
+
+  .lg\:\[\&\>li\]\:mx-4>li {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
