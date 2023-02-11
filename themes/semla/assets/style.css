@@ -2134,6 +2134,12 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+}
+
 .\[\&\>p\]\:mt-3>p {
   margin-top: 0.75rem;
 }
@@ -2612,10 +2618,6 @@ body {
     background-color: inherit;
   }
 
-  .lg\:bg-transparent {
-    background-color: transparent;
-  }
-
   .lg\:prose-xl :where(.lg\:prose-xl > :first-child):not(:where([class~="not-prose"] *)) {
     margin-top: 0;
   }
@@ -2732,6 +2734,14 @@ body {
 
   .group:nth-child(even) .group-even\:lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  [dir="ltr"] .ltr\:lg\:text-left {
+    text-align: left;
+  }
+
+  [dir="rtl"] .rtl\:lg\:text-right {
+    text-align: right;
   }
 }
 
