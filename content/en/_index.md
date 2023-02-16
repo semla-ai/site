@@ -11,7 +11,7 @@ hero:
   button:
     enable: true
     button: "Reserve a Meeting"
-    button_link: "link"
+    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # trusted by
 trusted_by:
