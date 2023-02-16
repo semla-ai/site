@@ -1,6 +1,10 @@
 ---
 title: SEMLA
 description: SEMLA - Software Engineering for Machine Learning Applications
+menu_button:
+    enable: true
+    button: "Reserve a Meeting"
+    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # hero
 hero:
