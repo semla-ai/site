@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://semla.ai/'
 defaultContentLanguage = "en"
 languageCode = 'en-us'
 title = 'Semla AI'
