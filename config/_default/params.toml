@@ -27,8 +27,9 @@ link = "https://www.linkedin.com/company/semla-ai"
 
 [[social]]
 name = "Email"
-icon = "fa-brands fa-envelope fa-xl"
+icon = "fa-solid fa-envelope fa-xl"
 link = "mailto:info@semla.ai"
+
 # [[social]]
 # name = "YouTube"
 # icon = "fa-brands fa-youtube fa-xl"
