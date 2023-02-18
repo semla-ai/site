@@ -18,10 +18,10 @@ name = "المنتجات"
 url = "/#products"
 weight = 40
 
-[[main]]
-name = "المدونة"
-url = "/blog/"
-weight = 50
+# [[main]]
+# name = "المدونة"
+# url = "/blog/"
+# weight = 50
 
 [[main]]
 name = "من نحن"
