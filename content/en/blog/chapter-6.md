@@ -1,10 +1,10 @@
 ---
-date: 2017-04-14T11:25:05-04:00
+title: "Chapter VI: Esmeralda"
 description: "Esmeralda"
+date: 2017-04-14T11:25:05-04:00
 featured_image: "/images/esmeralda.jpg"
 tags: []
-title: "Chapter VI: Esmeralda"
-disable_share: false
+draft: true
 ---
 
 ![Beach](/img/beach.jpg)
