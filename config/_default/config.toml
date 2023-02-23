@@ -1,9 +1,8 @@
 baseURL = 'https://semla.ai/'
 defaultContentLanguage = "en"
 languageCode = 'en-us'
-title = 'Semla AI'
+title = 'Semla AI - Elevate with Data'
 theme = 'semla'
 
 [markup.goldmark.renderer]
 unsafe= true
-
