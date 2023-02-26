@@ -2,7 +2,7 @@
 
 <!-- Hero -->
 {{ with .Params.hero }}{{ if .enable }}
-<div class="relative overflow-hidden pt-8 lg:pt-16">
+<div id="hero" class="relative overflow-hidden pt-8 lg:pt-16">
   <div class="mx-auto max-w-7xl lg:px-8">
     <div class="lg:flex lg:gap-8">
       <div class="flex w-full shrink-0 flex-col items-center justify-center lg:w-[420px] lg:items-start">
@@ -172,6 +172,11 @@
   </div>
 </div>
 {{ end }} {{ end }}
+
+<!-- Hero fixed button -->
+{{ with .Params.hero }}{{ if .enable }} {{ with .button }} {{ if .enable }}
+<div id="fixed-button" class="fixed bottom-2 right-5 z-50 my-10 text-center opacity-0 sm:mt-16 md:bottom-8 md:right-10 ltr:lg:text-left rtl:lg:text-right"><a href="{{ .button_link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center font-inter text-base font-semibold leading-tight text-white drop-shadow-xl transition duration-500 ease-in-out hover:from-[#6a65ad] hover:to-[#5484c7] sm:px-16 sm:py-6">{{ .button }}</a></div>
+{{ end }}{{ end }} {{ end }} {{ end }}
 
 <!-- End -->
 {{ end }}
