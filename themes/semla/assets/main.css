@@ -120,3 +120,11 @@ body {
 }
 
 /* Swiper end */
+
+#fixed-button {
+  transition: opacity 0.5s ease-in-out;
+}
+
+#fixed-button.show {
+  opacity: 1;
+}
