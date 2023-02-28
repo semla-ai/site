@@ -42,7 +42,7 @@ services:
         enable: false
         link_text: "Learn More"
         link: "#"
-    - title: "تحليلات البيانات والرؤى"
+    - title: "تحليل البيانات والرؤى"
       text: "نحن نساعدك في عملية جمع البيانات ومعالجتها وتحليلها من أجل اكتساب رؤى قيمة واتخاذ قرارات مستنيرة"
       image: "/img/service3.png"
       learn_more:
