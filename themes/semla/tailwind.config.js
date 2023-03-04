@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'], 
+        'urbanist': ['Urbanist', 'sans-serif'], 
+        'arabic': ['Noto Sans Arabic', 'sans-serif'], 
       },
     },
   },
