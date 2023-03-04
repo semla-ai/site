@@ -1768,6 +1768,14 @@ video {
   text-align: center;
 }
 
+.font-urbanist {
+  font-family: Urbanist, sans-serif;
+}
+
+.font-arabic {
+  font-family: Noto Sans Arabic, sans-serif;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
