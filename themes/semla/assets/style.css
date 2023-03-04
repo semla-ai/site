@@ -1768,10 +1768,6 @@ video {
   text-align: center;
 }
 
-.font-inter {
-  font-family: Inter, sans-serif;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -2044,9 +2040,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   font-family: Urbanist, Inter, sans-serif;
-}
+} */
 
 /* For LTR, use Urbanis and Inter */
 
@@ -2160,6 +2156,14 @@ body {
 .prose-a\:text-\[\#7b7fb5\] :is(:where(a):not(:where([class~="not-prose"] *))) {
   --tw-text-opacity: 1;
   color: rgb(123 127 181 / var(--tw-text-opacity));
+}
+
+[dir="ltr"] .ltr\:font-inter {
+  font-family: Inter, sans-serif;
+}
+
+[dir="rtl"] .rtl\:font-arabic {
+  font-family: Noto Sans Arabic, sans-serif;
 }
 
 @media (min-width: 640px) {
