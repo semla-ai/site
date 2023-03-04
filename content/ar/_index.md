@@ -1,5 +1,5 @@
 ---
-title: SEMLA
+title:
 description: SEMLA - Software Engineering for Machine Learning Applications
 
 # hero

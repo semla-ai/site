@@ -1,5 +1,5 @@
 ---
-title: SEMLA
+title: Elevate with Data
 description: SEMLA - Software Engineering for Machine Learning Applications
 
 # hero

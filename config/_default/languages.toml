@@ -2,7 +2,7 @@
 languageName = "English"
 languageCode = "en-us"
 contentDir = "content/en"
-title = "Semla AI - Elevate with Data"
+title = "Semla AI"
 weight = 1
 
 
@@ -11,5 +11,5 @@ languageName = "العربية"
 languageCode = "ar"
 contentDir = "content/ar"
 languagedirection = "rtl"
-title = "Semla AI - Elevate with Data"
+title = "سملا ٢٠٢٣"
 weight = 2
