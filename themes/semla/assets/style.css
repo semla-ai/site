@@ -1964,12 +1964,100 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* noto-sans-arabic-300 - arabic */
+
+@font-face {
+  font-display: swap;
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+
+  font-family: 'Noto Sans Arabic';
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: url('/fonts/noto-sans-arabic-v18-arabic-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('/fonts/noto-sans-arabic-v18-arabic-300.woff') format('woff');
+
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-arabic-regular - arabic */
+
+@font-face {
+  font-display: swap;
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+
+  font-family: 'Noto Sans Arabic';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: url('/fonts/noto-sans-arabic-v18-arabic-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('/fonts/noto-sans-arabic-v18-arabic-regular.woff') format('woff');
+
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-arabic-600 - arabic */
+
+@font-face {
+  font-display: swap;
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+
+  font-family: 'Noto Sans Arabic';
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  src: url('/fonts/noto-sans-arabic-v18-arabic-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('/fonts/noto-sans-arabic-v18-arabic-600.woff') format('woff');
+
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-arabic-700 - arabic */
+
+@font-face {
+  font-display: swap;
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+
+  font-family: 'Noto Sans Arabic';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: url('/fonts/noto-sans-arabic-v18-arabic-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('/fonts/noto-sans-arabic-v18-arabic-700.woff') format('woff');
+
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: Urbanist, Inter, sans-serif;
+}
+
+/* For LTR, use Urbanis and Inter */
+
+[dir=ltr] body {
+  font-family: Urbanist, Inter, sans-serif;
+}
+
+/* For RTL, use Noto Sans Arabic */
+
+[dir=rtl] body {
+  font-family: "Noto Sans Arabic", sans-serif;
 }
 
 /* Swiper */
