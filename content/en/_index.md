@@ -58,7 +58,7 @@ domains:
   domain:
     - title: "Time Series"
       text: "We Apply machine learning techniques to Data collected over time or based on events, such as stock prices, temperature readings, purchases made by customers or website clicks, and even data arranged in a table format, makes it possible to make predictions, identify patterns and trends, and gain valuable insights into various real-world problems and systems"
-      image: "/img/graphics2.png"
+      image: "/img/graphics2.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
