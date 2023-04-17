@@ -30,21 +30,21 @@ services:
   service:
     - title: "Machine Learning Consulting"
       text: "We provide expert advice and guidance to organizations to leverage the power of data and machine learning to solve business problems"
-      image: "/img/service1.png"
+      image: "/img/service1.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
     - title: "Machine Learning Development"
       text: "We design, build, and deploy custom machine learning models and solutions to automate tasks and make data-driven decisions"
-      image: "/img/service2.png"
+      image: "/img/service2.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
     - title: "Data Analytics and Insights"
       text: "We help you in the process to collect, process, and analyze data in order to gain valuable insights and make informed decisions"
-      image: "/img/service3.png"
+      image: "/img/service3.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
@@ -65,14 +65,14 @@ domains:
         link: "#"
     - title: "Computer Vision"
       text: "We Analyze, interpret, and model visual data like images and videos to perform tasks such as object recognition, image classification, object detection, semantic segmentation, and others. With the advancements in deep learning and convolutional neural networks, the accuracy and performance of machine learning for computer vision have significantly improved, making it a valuable tool for various industries"
-      image: "/img/graphics3.png"
+      image: "/img/graphics3.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
     - title: "Natural Langauge Processing"
       text: "Our team is experienced in developing deep learning models for a wide range of NLP applications, including speech recognition, text classification, sentiment analysis, named entity recognition, text generation, dialogue systems, and question-answering systems. With our domain expertise, companies can improve customer engagement, automate customer support, personalize marketing campaigns, and perform advanced language-based analysis"
-      image: "/img/graphics4.png"
+      image: "/img/graphics4.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
@@ -86,21 +86,21 @@ products:
   product:
     - title: "Digitize Arabic Documents"
       text: "Using Optical Character Recognition (OCR) technology to extract the text from images and convert it into editable text format. This can help organizations to better manage their information, reduce paper waste, and improve overall efficiency"
-      image: "/img/service1.png"
+      image: "/img/service1.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
     - title: "AI Content Moderation"
       text: "Automatically review and filter  text, images, or videos to ensure it aligns with defined standards and policies, promoting a safe and positive user experience"
-      image: "/img/service2.png"
+      image: "/img/service2.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
         link: "#"
     - title: "Predictive Maintenance"
       text: "Predict when equipment or machines are likely to fail, and to schedule maintenance tasks before those failures occur. The goal of predictive maintenance is to reduce downtime, minimize equipment damage, and lower maintenance costs"
-      image: "/img/service3.png"
+      image: "/img/service3.webp"
       learn_more:
         enable: false
         link_text: "Learn More"
@@ -112,7 +112,7 @@ about:
   heading: "About us"
   title: "Our Mission"
   text: "To help businesses elevate their operations and decision-making with the use of data analytics and machine learning techniques"
-  image: "/img/graphics5.png"
+  image: "/img/graphics5.webp"
   button:
     enable: false
     link_text: "Learn More about us"
