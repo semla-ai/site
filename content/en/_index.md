@@ -7,7 +7,7 @@ hero:
   enable: true
   title: Elevate with Data
   text: "We strive to elevate your business through the power of data and machine learning. Join us on a journey to transform your organization and stay ahead of the curve."
-  image: "/img/hero.png"
+  image: "/img/hero.webp"
   button:
     enable: true
     button: "Reserve a Meeting"

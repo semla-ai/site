@@ -7,7 +7,7 @@ hero:
   enable: true
   title: حلِّق بالبيانات
   text: "نحن نسعى جاهدين للارتقاء بعملك من خلال قوة البيانات والتعلم الآلي. انضم إلينا في رحلة لتحويل منظمتك والبقاء في الطليعة"
-  image: "/img/hero.png"
+  image: "/img/hero.webp"
   button:
     enable: true
     button: "احجز موعد"
