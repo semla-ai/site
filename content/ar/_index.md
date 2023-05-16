@@ -131,4 +131,9 @@ about:
 blog_recent:
   enable: false
   title: "Recent Blog"
+
+# contact form
+contact_form:
+  enable: true
+  heading: "Contact us"
 ---

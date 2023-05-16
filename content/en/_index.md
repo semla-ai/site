@@ -127,8 +127,14 @@ about:
     enable: false
     link_text: "Learn More about us"
     link: "about"
+
 # blog
 blog_recent:
   enable: false
   title: "Recent Blog"
+
+# contact form
+contact_form:
+  enable: true
+  heading: "Contact us"
 ---
