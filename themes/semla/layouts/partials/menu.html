@@ -54,7 +54,7 @@
     {{ end }}
   {{ end }}
 
-    <li class="my-8 lg:my-0"><a href="{{ $.Site.Params.contact_button_link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center text-base ltr:font-inter rtl:font-arabic font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90">{{ $.Site.Params.contact_button_text }}</a></li>
+    <li class="my-8 lg:my-0"><a href="{{ $.Site.Params.contact_button_link | relLangURL }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center text-base ltr:font-inter rtl:font-arabic font-semibold leading-tight text-white drop-shadow-xl hover:opacity-90">{{ $.Site.Params.contact_button_text }}</a></li>
       </ul>
       </div>
     </div>

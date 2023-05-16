@@ -128,5 +128,5 @@ blog_recent:
 # contact form
 contact_form:
   enable: true
-  heading: "Contact us"
+  heading: "تواصل معنا"
 ---

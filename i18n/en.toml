@@ -4,3 +4,15 @@ other = "Reserve a Meeting"
 [allRightsReserved]
 other = "All rights reserved."
 
+[email]
+other = "Email"
+
+[subject]
+other = "Subject"
+
+[message]
+other = "Message"
+
+[send]
+other = "Send"
+

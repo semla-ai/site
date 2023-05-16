@@ -3,3 +3,15 @@ other = "احجز موعد"
 
 [allRightsReserved]
 other = "كل الحقوق محفوظة"
+
+[email]
+other = "البريد الإلكتروني"
+
+[subject]
+other = "موضوع"
+
+[message]
+other = "رسالة"
+
+[send]
+other = "إرسال"
