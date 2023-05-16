@@ -2,6 +2,16 @@
 title: Elevate with Data
 description: SEMLA - Software Engineering for Machine Learning Applications
 
+# enable contact buttons here
+menu_button:
+  enable: true
+
+hero_button:
+  enable: true
+
+floating_button:
+  enable: true
+
 # hero
 hero:
   enable: true

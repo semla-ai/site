@@ -2,7 +2,10 @@ logo = '/img/logo.png'
 
 menu_button_link = "https://calendly.com/eyadsibai/semla-20-mins"
 
-########################### contact us ############################
+########################### contact info ############################
+
+contact_button_text = "Contact"
+contact_button_link = "/#contact"
 
 phone = "000 00 00 00"
 email = "info@semla.ai"
