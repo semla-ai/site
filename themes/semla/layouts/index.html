@@ -180,7 +180,7 @@
   <div class="mx-auto max-w-7xl lg:px-8">
     <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
 
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" netlify-honeypot="unreal" netlify>
       <div class="max-w-xl space-y-12">
         <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           <div class="sm:col-span-3">
@@ -189,7 +189,11 @@
               <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
             </div>
           </div>
-
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="unreal" />
+            </label>
+          </p>
           <div class="col-span-full">
             <label for="subject" class="block text-sm font-medium leading-6 text-white">{{ T "subject" }}</label>
             <div class="mt-2">
