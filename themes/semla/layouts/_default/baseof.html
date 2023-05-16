@@ -43,20 +43,5 @@
         },
       });
     </script>
-    <script>
-      // Set up the Intersection Observer
-      const observer = new IntersectionObserver(entries => {
-        const button = document.getElementById('fixed-button');
-        if (!entries[0].isIntersecting) {
-          button.classList.add('show');
-        } else {
-          button.classList.remove('show');
-        }
-      });
-  
-      // Observe the #hero element
-      const heroElement = document.getElementById('hero');
-      observer.observe(heroElement);
-    </script>
   </body>
 </html>

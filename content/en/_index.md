@@ -2,16 +2,19 @@
 title: Elevate with Data
 description: SEMLA - Software Engineering for Machine Learning Applications
 
+# enable contact buttons here
+menu_button:
+  enable: true
+
+hero_button:
+  enable: true
+
 # hero
 hero:
   enable: true
   title: Elevate with Data
   text: "We strive to elevate your business through the power of data and machine learning. Join us on a journey to transform your organization and stay ahead of the curve."
   image: "/img/hero.webp"
-  button:
-    enable: true
-    button: "Reserve a Meeting"
-    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # trusted by
 trusted_by:
@@ -117,8 +120,14 @@ about:
     enable: false
     link_text: "Learn More about us"
     link: "about"
+
 # blog
 blog_recent:
   enable: false
   title: "Recent Blog"
+
+# contact form
+contact_form:
+  enable: true
+  heading: "Contact Us"
 ---

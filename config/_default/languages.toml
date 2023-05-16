@@ -5,6 +5,9 @@ contentDir = "content/en"
 title = "Semla AI"
 weight = 1
 
+[en.params]
+contact_button_text = "Contact us"
+contact_button_link = "/#contact"
 
 [ar]
 languageName = "العربية"
@@ -13,3 +16,7 @@ contentDir = "content/ar"
 languagedirection = "rtl"
 title = "سملا ٢٠٢٣"
 weight = 2
+
+[ar.params]
+contact_button_text = "تواصل معنا"
+contact_button_link = "/#contact"

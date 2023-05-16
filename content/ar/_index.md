@@ -2,16 +2,19 @@
 title:
 description: SEMLA - Software Engineering for Machine Learning Applications
 
+# enable contact buttons here
+menu_button:
+  enable: true
+
+hero_button:
+  enable: true
+
 # hero
 hero:
   enable: true
   title: حلِّق بالبيانات
   text: "نحن نسعى جاهدين للارتقاء بعملك من خلال قوة البيانات والتعلم الآلي. انضم إلينا في رحلة لتحويل منظمتك والبقاء في الطليعة"
   image: "/img/hero.webp"
-  button:
-    enable: true
-    button: "احجز موعد"
-    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # trusted by
 trusted_by:
@@ -121,4 +124,9 @@ about:
 blog_recent:
   enable: false
   title: "Recent Blog"
+
+# contact form
+contact_form:
+  enable: true
+  heading: "تواصل معنا"
 ---

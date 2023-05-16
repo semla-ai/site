@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
   <title>{{ .Site.Title }} - {{ .Title }}</title>
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
   {{ $style := resources.Get "style.css" }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
   <script defer src="/fontawesome/js/brands.js"></script>
