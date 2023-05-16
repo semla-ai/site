@@ -174,9 +174,10 @@
 {{ end }} {{ end }}
 
 <!-- Contact form -->
+
 {{ with .Params.contact_form }} {{ if .enable }}
 <div id="contact" class="relative px-6 py-12 lg:px-8 lg:py-24">
-  <div class="mx-auto max-w-3xl lg:px-8">
+  <div class="mx-auto max-w-7xl lg:px-8">
     <h2 class="mb-6 text-6xl font-extrabold text-[#282854] lg:mb-16 lg:text-9xl">{{ .heading }}</h2>
 
     <form name="contact" method="POST" data-netlify="true">
