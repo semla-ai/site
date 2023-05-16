@@ -181,18 +181,7 @@
 
     <form name="contact" method="POST" data-netlify="true">
       <div class="max-w-xl space-y-12">
-        <!-- <div class="border-b border-white/10 pb-12"> -->
-        <!-- <h2 class="text-base font-semibold leading-7 text-white">Maybe some title for the form</h2> -->
-        <!-- <p class="mt-1 text-sm leading-6 text-gray-400">Maybe some intro text goes here.</p> -->
-
         <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-          <!-- <div class="sm:col-span-3">
-              <label for="name" class="block text-sm font-medium leading-6 text-white">Name</label>
-              <div class="mt-2">
-                <input type="text" name="name" id="name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-              </div>
-            </div> -->
-
           <div class="sm:col-span-3">
             <label for="email" class="block text-sm font-medium leading-6 text-white">Email address</label>
             <div class="mt-2">
@@ -215,21 +204,14 @@
             <div class="mt-6 flex items-center justify-end gap-x-6">
               <button type="submit" class="rounded-md bg-indigo-500 bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-4 py-2 text-base font-semibold text-white shadow-sm transition duration-500 ease-in-out hover:from-[#6a65ad] hover:to-[#5484c7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Send</button>
             </div>
-            <!-- <p class="mt-3 text-sm leading-6 text-gray-400">Maybe some text here.</p> -->
           </div>
         </div>
-        <!-- </div> -->
       </div>
     </form>
   </div>
 </div>
 
 {{ end }} {{ end }}
-
-<!-- Hero fixed button -->
-{{ with .Params.floating_button }}{{ if .enable }}
-<div id="fixed-button" class="fixed bottom-2 right-5 z-50 my-10 text-center opacity-0 sm:mt-16 md:bottom-8 md:right-10 ltr:lg:text-left rtl:lg:text-right"><a href="{{ $.Site.Params.contact_button_link }}" class="items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7672b4] to-[#6792cd] px-8 py-4 text-center text-base font-semibold leading-tight text-white drop-shadow-xl transition duration-500 ease-in-out hover:from-[#6a65ad] hover:to-[#5484c7] ltr:font-inter rtl:font-arabic sm:px-16 sm:py-6">{{ $.Site.Params.contact_button_text }}</a></div>
-{{ end }}{{ end }}
 
 <!-- End -->
 {{ end }}

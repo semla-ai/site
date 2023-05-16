@@ -9,19 +9,12 @@ menu_button:
 hero_button:
   enable: true
 
-floating_button:
-  enable: true
-
 # hero
 hero:
   enable: true
   title: Elevate with Data
   text: "We strive to elevate your business through the power of data and machine learning. Join us on a journey to transform your organization and stay ahead of the curve."
   image: "/img/hero.webp"
-  button:
-    enable: true
-    button: "Reserve a Meeting"
-    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # trusted by
 trusted_by:

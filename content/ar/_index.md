@@ -9,19 +9,12 @@ menu_button:
 hero_button:
   enable: true
 
-floating_button:
-  enable: true
-
 # hero
 hero:
   enable: true
   title: حلِّق بالبيانات
   text: "نحن نسعى جاهدين للارتقاء بعملك من خلال قوة البيانات والتعلم الآلي. انضم إلينا في رحلة لتحويل منظمتك والبقاء في الطليعة"
   image: "/img/hero.webp"
-  button:
-    enable: true
-    button: "احجز موعد"
-    button_link: "https://calendly.com/eyadsibai/semla-20-mins"
 
 # trusted by
 trusted_by:

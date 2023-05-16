@@ -43,55 +43,5 @@
         },
       });
     </script>
-    <!-- <script>
-
-      const observer = new IntersectionObserver(entries => {
-        const button = document.getElementById('fixed-button');
-        if (!entries[0].isIntersecting) {
-          button.classList.add('show');
-        } else {
-          button.classList.remove('show');
-        }
-      });
-  
-
-      const heroElement = document.getElementById('hero');
-      observer.observe(heroElement);
-    </script> -->
-
-    <script>
-      // Set up the Intersection Observer
-      const observer = new IntersectionObserver(
-        (entries) => {
-          const button = document.getElementById("fixed-button");
-          let shouldShowButton = true;
-
-          entries.forEach((entry) => {
-            if (entry.target.id === "hero" && entry.isIntersecting) {
-              shouldShowButton = false;
-            } else if (entry.target.id === "contact" && entry.isIntersecting) {
-              shouldShowButton = false;
-            }
-          });
-
-          if (shouldShowButton) {
-            button.classList.add("show");
-          } else {
-            button.classList.remove("show");
-          }
-        },
-        {
-          threshold: 0.1,
-        }
-      );
-
-      // Observe the #hero element
-      const heroElement = document.getElementById("hero");
-      observer.observe(heroElement);
-
-      // Observe the #contact element
-      const contactElement = document.getElementById("contact");
-      observer.observe(contactElement);
-    </script>
   </body>
 </html>
